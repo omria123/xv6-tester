@@ -20,7 +20,10 @@ def br_repo(repo, branch):
     return repo
 
 
-def test_br_repo(br_repo, exercise):
+def test_br_repo(br_repo):
     os.chdir(br_repo.working_tree_dir)
-    result = sp.run(['make', f'GRADEFLAGS={exercise}', 'grade'])
+    result = sp.run(['make', 'grade'])
     assert result.returncode == 0
+
+
+
