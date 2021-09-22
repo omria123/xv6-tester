@@ -1,6 +1,6 @@
 from pytest import fixture
 
-BRANCHES = ['util', 'pgtbl', 'traps', 'lazy', 'cow', 'thread', 'lock', 'fs', 'mmap', 'networking']
+BRANCHES = ['util', 'pgtbl', 'traps', 'lazy', 'cow', 'thread', 'lock', 'fs', 'mmap', 'net']
 
 '''
 This is meant to be use in order to micro testing BRANCHES specific exercises.
